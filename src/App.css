@@ -1,0 +1,7 @@
+.custom-hero-bg {
+  background: linear-gradient(
+    to right,
+    rgba(13, 71, 161, 1) 40%,
+    rgba(21, 101, 192, 1) 70%
+  );
+}
