@@ -4,7 +4,7 @@ import { LocalStorage } from "../utils";
 
 // Create an Axios instance for API requests
 const apiClient = axios.create({
-  baseURL: `/api/v1`,
+  baseURL: `${import.meta.env.VITE_BACKEND_URI}/api/v1`,
   withCredentials: true,
   timeout: 120000,
 });

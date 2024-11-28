@@ -1,8 +1,10 @@
 // vite.config.js
 import { defineConfig } from "vite";
+import dns from "dns";
 import react from "@vitejs/plugin-react";
-import dotenv from "dotenv";
 import path from "path";
+import dotenv from "dotenv";
+dns.setDefaultResultOrder("verbatim");
 
 dotenv.config();
 
